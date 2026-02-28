@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ivan Chan Professional Webpage</title>
+    <title>My Professional Webpage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
@@ -13,7 +13,6 @@
             color: #333;
         }
 
-        /* Navigation Bar */
         nav {
             background-color: #1f2d3d;
             padding: 15px 40px;
@@ -38,7 +37,6 @@
             opacity: 0.7;
         }
 
-        /* Hero Section */
         .hero {
             text-align: center;
             padding: 80px 20px;
@@ -55,34 +53,22 @@
             font-size: 18px;
         }
 
-        .hero button {
-            margin-top: 20px;
-            padding: 12px 25px;
-            border: none;
-            background-color: white;
-            color: #4e73df;
-            font-size: 16px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        .hero button:hover {
-            background-color: #e2e6ea;
-        }
-
-        /* Content Section */
-        .content {
-            padding: 50px 20px;
+        .section {
+            padding: 60px 20px;
             text-align: center;
         }
 
-        .content img {
-            width: 300px;
-            border-radius: 10px;
-            margin-top: 20px;
+        .section h2 {
+            margin-bottom: 20px;
         }
 
-        /* Footer */
+        .section img {
+            width: 300px;
+            border-radius: 10px;
+            margin-top: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
         footer {
             background-color: #1f2d3d;
             color: white;
@@ -96,35 +82,49 @@
 
 <body>
 
-    <!-- Navigation -->
     <nav>
         <h2>My Website</h2>
         <div>
             <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="#pets">Pets</a>
+            <a href="#family">Family</a>
+            <a href="#career">Career</a>
+            <a href="#alaska">Alaska</a>
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section class="hero">
-        <h1>Welcome to Dr. Ivan Chan Website</h1>
-        <p>A simple professional webpage built with HTML & CSS</p>
-        <button>Learn More</button>
+        <h1>Welcome to My Personal Website</h1>
+        <p>Professional • Personal • Passion</p>
     </section>
 
-    <!-- Content Section -->
-    <section class="content">
-        <h2>About Me</h2>
-        <p>This is a clean, modern layout suitable for personal profile, clinic page, or small business website.</p>
-        <img src="photo.jpg" alt="My Photo">
+    <section class="section" id="pets">
+        <h2>My Pets</h2>
+        <p>Meet my beloved companions.</p>
+        <img src="pets.jpg" alt="My Pets">
     </section>
 
-    <!-- Footer -->
+    <section class="section" id="family">
+        <h2>My Family</h2>
+        <p>The most important people in my life.</p>
+        <img src="family.jpg" alt="My Family">
+    </section>
+
+    <section class="section" id="career">
+        <h2>My Career</h2>
+        <p>A glimpse into my professional journey.</p>
+        <img src="career.jpg" alt="My Career">
+    </section>
+
+    <section class="section" id="alaska">
+        <h2>My Latest Vacation – Alaska</h2>
+        <p>Exploring glaciers, mountains, and wild beauty.</p>
+        <img src="alaska.jpg" alt="Alaska Trip">
+    </section>
+
     <footer>
         © 2026 My Website | All Rights Reserved
     </footer>
 
 </body>
 </html>
-
